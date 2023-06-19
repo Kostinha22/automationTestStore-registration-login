@@ -21,9 +21,7 @@ export function loginViaHttpRequest(user){
           loginname: user.username,  // логін аккаунту
           password: user.password  // пароль 
         }
-      }).then((loginResponse) => {
-        // Здесь проверьте успешность авторизации или выполните другие действия после авторизации
-      });
+      })
     });
       
 
